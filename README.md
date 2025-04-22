@@ -34,16 +34,6 @@ O **Conta Service** é uma aplicação que permite criar, buscar, atualizar e de
 ### Integração com o "Sistema BACEN"
 A integração com o Bacen é realizada através do cliente Feign (`BacenService`), que permite registrar e consultar chaves Pix de forma simplificada.
 
-## Como Executar
-
-1. Certifique-se de ter o **Java 17+** instalado.
-2. Clone o repositório e navegue até o diretório do projeto.
-3. Execute o comando abaixo para iniciar a aplicação:
-     ```bash
-     ./mvnw spring-boot:run
-     ```
-4. Acesse a aplicação em `http://localhost:9000`.
-
 ## Documentação da API
 
 A documentação da API está disponível em:
